@@ -12,40 +12,69 @@
     <meta name="author" content="Dilshan Dekumpitiya">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--device responsive-->
 
-    <link rel="stylesheet" href="style/stylesheet.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <link rel="stylesheet" href="assets/css/normerlize.css">
+    <link rel="stylesheet" href="assets/fonts/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+
+
 </head>
 <body>
 
 <!--////////////////////////header section create//////////////////////////////////-->
-<header class="header">
+<!--<header class="header">-->
 
-    <a href="#" class="logo">Portfolio<span class="cyan">.</span></a>
-    <img src="./assets/images/header.png" alt="youtube profile" title="youtube" width="40" height="40">
-    <a href="https://www.youtube.com/@dekumvlogs" target="_blank">
-        <img alt="youtube" src="./assets/images/youtube-img.png"
-             width="30" height="30">
-    </a>
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <a href="assignments.html">Assignments</a>
-        <a href="projects.html">Projects</a>
-        <a href="services.html">Services</a>
-        <a href="activities.html">Activities</a>
-        <a href="youtube.html">Youtube Content</a>
-        <a href="blogs.html">My Blogs</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+<!--    <img src="./assets/images/header.png" alt="youtube profile" title="youtube" width="40" height="40">-->
+<!--    <a href="https://www.youtube.com/@dekumvlogs" target="_blank">-->
+<!--        <img alt="youtube" src="./assets/images/youtube-img.png"-->
+<!--             width="30" height="30">-->
+<!--    </a>-->
+<!--    <nav class="navbar">-->
+<!--        <a href="index.html">Home</a>-->
+<!--        <a href="#about">About</a>-->
+<!--        <a href="pages/assignments.html">Assignments</a>-->
+<!--        <a href="pages/projects.html">Projects</a>-->
+<!--        <a href="pages/services.html">Services</a>-->
+<!--        <a href="pages/activities.html">Activities</a>-->
+<!--        <a href="pages/youtube.html">Youtube Content</a>-->
+<!--        <a href="pages/blogs.html">My Blogs</a>-->
+<!--        <a href="#gallery">Gallery</a>-->
+<!--        <a href="#contact">Contact</a>-->
+<!--    </nav>-->
+<!--    <hr>-->
+<!--</header>-->
+
+<header>
+    <div>
+        <h2>Dilshan Dekumpitiya</h2>
+    </div>
+    <nav>
+        <menu>
+            <li><a href="#home_section">Home</a></li>
+            <li><a href="#about_header">About</a></li>
+            <li><a href="#education_header">Education</a></li>
+            <li><a href="#skills_header">Experience</a></li>
+            <li><a href="#project_header">Projects</a></li>
+            <li><a href="#assignment_header">Assignments</a></li>
+            <li><a href="#services_header">Services</a></li>
+            <li><a href="#gallery_header">Gallery</a></li>
+            <li><a href="#contact_header">Contact</a></li>
+        </menu>
     </nav>
-    <hr>
+
+    <!--mobile view menu icon-->
+    <button id="btn-burger">
+        <i id="burger" class="fa-solid fa-bars"></i>
+    </button>
 </header>
+
+<a href="#" id="scroll_up_btn"><i class="fa-solid fa-arrow-up"></i></a>
 
 <!--/////////////////////////////////////////////main content create/////////////////////////////////////////////////////////-->
 
 <!--////////////////////////hero section create//////////////////////////////////-->
 <main>
-    <section>
+    <section id="home_section">
         <img src="./assets/images/my-photo-img.png" alt="dilshan dekumpitiya" width="280" height="280">
         <h2>Hey! I'm</h2>
         <h2>Dilshan Dekumpitiya</h2>
@@ -318,6 +347,9 @@
         Dilshan Dekumpitiya 2023
     </center>
 </footer>
+
+<script src="assets/js/lib/jquery.min.js"></script>
+<script src="assets/js/script.js"></script>
 
 </body>
 </html>
