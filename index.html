@@ -17,9 +17,17 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!--    ==============================   Animation OS    ======================================-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
+
+<!--///////////////// for cursor /////////////////-->
+<div id="mainCircle">
+    <div id="subCircle"></div>
+</div>
 
 <header>
     <div>
@@ -49,6 +57,7 @@
 <a href="#" id="scroll_up_btn"><i class="fa-solid fa-arrow-up"></i></a>
 
 <main>
+
     <!-- Home -->
     <section id="home_section">
 
@@ -81,8 +90,8 @@
             </aside>
 
             <section id="home_description">
-                <h1><b>Hi, I'm Dilshan</b></h1>
-                <h1><b>Dekumpitiya</b></h1>
+                <h1 data-aos="fade-down"><b>Hi, I'm Dilshan</b></h1>
+                <h1 data-aos="fade-up"><b>Dekumpitiya</b></h1>
 
                 <h3><b>Associate Software Developer @DMS Electronics</b></h3>
                 <p>Experience in developing Front end
@@ -98,7 +107,7 @@
 
         <section>
             <!--My Photo-->
-            <div>
+            <div data-aos="zoom-in">
                 <!-- <img src="assets/images/My_Image.png" alt="My Photo" width="350" height="350">-->
             </div>
         </section>
@@ -116,43 +125,43 @@
         <section>
             <article>
                 <!--My Photo-->
-                <div>
+                <div data-aos="fade-up-right">
                     <!--                    <img src="assets/images/My_Image.png" alt="My Photo" width="350" height="350">-->
                 </div>
 
-                <section>
+                <section data-aos="fade-up-left">
                     <!-- My Details -->
-                    <h2>Hello There, I'm Ashan</h2>
+                    <h2>Hello There, I'm Dilshan Dekumpitiya</h2>
                     <p>A software engineering student at Institute of Software Engineering.
-                        I'm currently taking a Graduate Diploma in Software Engineering at <abbr
-                                title="Institute of Software Engineering">IJSE</abbr>.</p>
+                        I'm currently working as a Associate Software Developer at <abbr
+                                title="DMS">DMS Electronics (Pvt) Ltd</abbr>.</p>
 
                     <p>Eager to improve and learn new and necessary skills and highly motivated
                         to do my best for the sake of helping myself and the company advance
                         in the software engineering industry.</p>
 
-                    <div>
-                        <div>
-                            <p><i class="fa-solid fa-angle-right"></i> <strong>Name:</strong>
-                                <span>Ashan Sandeep Mendis</span>
-                            </p>
-                            <p><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>21 years old</span>
-                            </p>
-                            <p><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong>
-                                <span>11 April 2001</span></p>
-                            <p><i class="fa-solid fa-angle-right"></i> <strong>Mobile:</strong>
-                                <span>+94 765631708</span></p>
-                        </div>
+<!--                    <div>-->
+<!--                        <div>-->
+<!--                            <p><i class="fa-solid fa-angle-right"></i> <strong>Name:</strong>-->
+<!--                                <span>Ashan Sandeep Mendis</span>-->
+<!--                            </p>-->
+<!--                            <p><i class="fa-solid fa-angle-right"></i> <strong>Age:</strong> <span>21 years old</span>-->
+<!--                            </p>-->
+<!--                            <p><i class="fa-solid fa-angle-right"></i> <strong>Birthday:</strong>-->
+<!--                                <span>11 April 2001</span></p>-->
+<!--                            <p><i class="fa-solid fa-angle-right"></i> <strong>Mobile:</strong>-->
+<!--                                <span>+94 765631708</span></p>-->
+<!--                        </div>-->
 
-                        <div>
-                            <p><i class="fa-solid fa-angle-right"></i> <strong>Location:</strong>
-                                <span>Galle, SriLanka</span>
-                            </p>
-                            <p><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong>
-                                <span>ashansandeep06@gmail.com</span></p>
+<!--                        <div>-->
+<!--                            <p><i class="fa-solid fa-angle-right"></i> <strong>Location:</strong>-->
+<!--                                <span>Galle, SriLanka</span>-->
+<!--                            </p>-->
+<!--                            <p><i class="fa-solid fa-angle-right"></i> <strong>Email:</strong>-->
+<!--                                <span>ashansandeep06@gmail.com</span></p>-->
 
-                        </div>
-                    </div>
+<!--                        </div>-->
+<!--                    </div>-->
 
                     <button>Download CV
                         <a href="./assets/pdf/DILSHAN_DEKUMPITIYA_CV.pdf" target="_blank">
@@ -208,9 +217,9 @@
                  <p><i class="fa-solid fa-calendar"></i> 2007-2011</p>
              </div>-->
 
-            <div>
-                <img src="assets/images/EducationSvg.svg" alt="">
-            </div>
+<!--            <div>-->
+<!--                <img src="assets/images/EducationSvg.svg" alt="">-->
+<!--            </div>-->
 
         </section>
     </section>
@@ -584,7 +593,7 @@
 
                         <div>
                             <h4>Mobile</h4>
-                            <p>+94 765631708</p>
+                            <p>+94 772985802</p>
                         </div>
                     </div>
 
@@ -594,7 +603,7 @@
 
                         <div>
                             <h4>Email</h4>
-                            <p>ashansandeep06@gmail.com</p>
+                            <p>dilshandekumpitiya@gmail.com</p>
                         </div>
                     </div>
 
@@ -604,7 +613,7 @@
 
                         <div>
                             <h4>Address</h4>
-                            <p>Galle, Sri Lanka</p>
+                            <p>Matugama, Sri Lanka</p>
                         </div>
                     </div>
                 </aside>
@@ -685,6 +694,13 @@
 
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src="assets/js/script.js"></script>
+
+<!--==============================    Animation OS   ============================-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 
 </html>
