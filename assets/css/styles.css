@@ -203,6 +203,46 @@ body > header > nav > menu > li > a:hover::after {
 
 /* --------------------------------------------------------------------------- */
 
+/*====================== cursor styles ======================*/
+
+header{
+    cursor: default;
+}
+
+body{
+    cursor: none;
+}
+
+#mainCircle{
+    display: inline-block;
+    position: absolute;
+    border: 3px solid rgba(151, 157, 197, 0.63);
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    /*z-index: 1;*/
+}
+
+#subCircle{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background: blue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
 /*====================== Home Section ======================*/
 
 body > main #home_social_links {
@@ -214,10 +254,6 @@ body > main #home_social_links {
     height: 500px;
     position: relative;
 
-    /* 2022-09-10 Changed ----- */
-    /*top: 94px;*/
-
-    /* 2022-09-10 Changed ----- */
     margin-top: 62px;
     margin-bottom: 85px;
 }
@@ -330,9 +366,7 @@ body > main #home_social_links > div:hover {
     background: #0078FF;
 }
 
-/* 2022-08-30 Changed Codes below ------------------------- */
 body > main > section#home_section {
-    /* 2022-09-10 Changed ----- */
     /*height: 723px;*/
 
     width: 100%;
@@ -341,13 +375,11 @@ body > main > section#home_section {
     justify-content: space-evenly;
     /*background: #fafaff;*/
 
-    /* 2022-09-10 Changed ----- */
     /*background: deeppink;*/
     flex-wrap: wrap;
 }
 
 body > main > section#home_section > section:first-child {
-    /* 2022-09-10 Changed ----- */
     /*background: darkgray;*/
     width: 659px;
     /* justify-content: space-between; */
@@ -357,13 +389,11 @@ body > main > section#home_section > section:first-child {
 }
 
 body > main > section#home_section > section:last-child {
-    /* 2022-09-10 Changed ----- */
     /*background: wheat;*/
     width: 550px;
     display: flex;
     /*flex-direction: column;*/
 
-    /* 2022-09-10 Changed ----- */
     /*width: 45%;*/
 
     padding-left: 50px;
@@ -371,7 +401,6 @@ body > main > section#home_section > section:last-child {
 }
 
 body > main > section#home_section > section:first-child > aside {
-    /* 2022-09-10 Changed ----- */
     /*width: 26%;*/
 }
 
@@ -402,8 +431,6 @@ main > section:first-child > section:first-child > #home_description > h1:first-
     position: relative;
     top: 115px;
 
-    /* 2022-09-10 Changed ----- */
-    /*left: 219px;*/
 }
 
 main > section:first-child > section:first-child > #home_description > h1:nth-child(2) {
@@ -413,16 +440,12 @@ main > section:first-child > section:first-child > #home_description > h1:nth-ch
     position: relative;
     top: 115px;
 
-    /* 2022-09-10 Changed ----- */
-    /*left: 216px;*/
 }
 
 main > section:first-child > section:first-child > #home_description > h3 {
     position: relative;
     top: 115px;
 
-    /* 2022-09-10 Changed ----- */
-    /*left: 218px;*/
 
     font-size: 20px;
     font-weight: 600;
@@ -435,8 +458,6 @@ main > section:first-child > section:first-child > #home_description > p {
     position: relative;
     top: 96px;
 
-    /* 2022-09-10 Changed ----- */
-    /*left: 218px;*/
 
     font-size: 18px;
     font-family: poppins, sans-serif;
@@ -452,8 +473,6 @@ main > section:first-child > section:first-child > #home_description > button {
     position: relative;
     top: 109px;
 
-    /* 2022-09-10 Changed ----- */
-    /*left: 218px;*/
 }
 
 main > section:first-child > section:first-child > #home_description > button:hover {
@@ -4613,7 +4632,6 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     }
 }
 
-/* 2022-09-15 Added */
 @media (max-width: 691px) {
     main > #about_section > section:nth-child(2) section > div {
         gap: 0;
