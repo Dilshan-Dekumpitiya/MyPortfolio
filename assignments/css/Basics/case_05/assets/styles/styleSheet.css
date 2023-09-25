@@ -1,0 +1,22 @@
+body>section{
+    width: 1200px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+}
+
+body>section>div{
+    background: url("../img/code.gif");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.68);
+}
+

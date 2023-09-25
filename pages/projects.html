@@ -2,61 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Projects</title>
-
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
-
-    <!--meta data-->
-    <meta name="keywords" content="html,css,js,java,dilshan,dekumpitiya,software,engineering,portfolio">
-    <meta name="description" content="Dilshan Dekumpitiya - Portfolio">
-    <meta name="author" content="Dilshan Dekumpitiya">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--device responsive-->
+    <title>Projects-page</title>
+    <link rel="icon" href="../assets/images/Web_Surfing.png">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <meta name="keywords" content="IJSE,GDSE,GDSE 60,Html,Web">
+    <meta name="description" content="IJSE,GDSE,GDSE 60,Html,Web">
+    <meta name="author" content="Ashan Sandeep">
+    <meta name="owner" content="Ashan Sandeep">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+    <meta name="theme-color" content="blue">
 </head>
 <body>
-<!--////////////////////////header section create//////////////////////////////////-->
-<header>
-    <img src="../assets/images/header.png" alt="youtube profile" title="youtube" width="40" height="40">
-    <label>Dekum Vlogs on</label>
-    <a href="https://www.youtube.com/@dekumvlogs" target="_blank">
-        <img alt="youtube" src="../assets/images/youtube-img.png"
-             width="30" height="30">
-    </a>
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../index.html#about">About</a>
-        <a href="assignments.html">Assignments</a>
-        <a href="projects.html">Projects</a>
-        <a href="services.html">Services</a>
-        <a href="activities.html">Activities</a>
-        <a href="youtube.html">Youtube Content</a>
-        <a href="blogs.html">My Blogs</a>
-        <a href="../index.html#gallery">Gallery</a>
-        <a href="../index.html#contact">Contact</a>
-    </nav>
-    <hr>
-</header>
 
-<!--////////////////////////main content create//////////////////////////////////-->
-<main>
-    <section>
-        <h3>Projects</h3>
-        <hr>
-        <h4>Technology</h4>
-        <img src="../assets/images/image.png" alt="image">
-        <h5>Description</h5>
-        <h6>Description here</h6>
-        <button>Code Here</button>
+<!--<div id="loader">-->
+<!--    <div>-->
+<!--        <img src="../assets/images/Spin-1s-200px.gif" alt="Loader image">-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div id="extra-div" style="width: 100%; height: 800px; position:absolute;"></div>-->
+
+<section id="projects_page">
+    <section id="firstSection">
+        <h1>Projects</h1>
     </section>
-</main>
 
-<!--////////////////////////footer create//////////////////////////////////-->
-<footer>
-    <center>
-        <hr>
-        <img src="../assets/images/copyright-img.png" alt="copyright" width="20" height="20">
-        Dilshan Dekumpitiya 2023
-    </center>
-</footer>
+    <section id="secondSection">
+        <div>
+            <button class="second_section_btn" id="btnAllProjects">All</button>
+        </div>
 
+        <div>
+            <button class="second_section_btn" id="btnDesktop">Desktop</button>
+        </div>
+
+        <div>
+            <button class="second_section_btn" id="btnWeb">Web</button>
+        </div>
+    </section>
+
+    <section id="thirdSection">
+
+        <section id="projects-container">
+            <div class="project-divs display_all_projects display_desktop_projects">
+                <img src="assets/img/POS.gif">
+                <div class="hover-divs">
+                    <h4>POS System</h4>
+                    <p class="projects_p">1 st Semester Final Project</p>
+                    <button id="btnProject1" class="projects_btn">
+                        View Project
+                        <a></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-divs display_all_projects display_desktop_projects">
+                <img src="assets/img/Hostel.gif">
+                <div class="hover-divs">
+                    <h4>Hostel Management System</h4>
+                    <p class="projects_p">Hibernate Framework Project</p>
+                    <button id="btnProject2" class="projects_btn">
+                        View Project
+                        <a></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-divs display_all_projects display_desktop_projects">
+                <img src="assets/img/Hotel-Reservation.gif">
+                <div class="hover-divs">
+                    <h4>Hotel Reservation System</h4>
+                    <p class="projects_p">UI UX Coursework</p>
+                    <button id="btnProject3" class="projects_btn">
+                        View Project
+                        <a></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-divs display_all_projects display_desktop_projects">
+                <img src="assets/img/Layered-POS.gif">
+                <div class="hover-divs">
+                    <h4>Layered SuperMarket System</h4>
+                    <p class="projects_p">This is a Supermarket System which was implemented using Layered
+                        Architecture</p>
+                    <button id="btnProject4" class="projects_btn">
+                        View Project
+                        <a></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-divs display_all_projects display_desktop_projects">
+                <img src="assets/img/Vehicle-Parking.gif">
+                <div class="hover-divs">
+                    <h4>Vehicle Parking System</h4>
+                    <p class="projects_p">This is a Vehicle Parking System based on OOP Concepts</p>
+                    <button id="btnProject5" class="projects_btn">
+                        View Project
+                        <a></a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="project-divs display_all_projects display_desktop_projects">
+                <img src="assets/img/Chat-Application.gif">
+                <div class="hover-divs">
+                    <h4>My Chat Application</h4>
+                    <p class="projects_p">This is a simple chat application which was implemented using Java Sockets</p>
+                    <button id="btnProject6" class="projects_btn">
+                        View Project
+                        <a></a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </section>
+</section>
+
+<script src="../assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
