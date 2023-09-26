@@ -568,15 +568,6 @@ main > section:nth-child(2)#about_section > section:nth-child(2) > article {
     transition: all 2s;
 }
 
-/*main > section:nth-child(2)#about_section > section:nth-child(2) section {
-     position: absolute;
-     top: 0;
-     bottom: 0;
-     left: 650px;
-     margin: auto;
-     height: 100%;
-}*/
-
 main > #about_section > section:first-child > h1::before {
     content: "";
     position: absolute;
@@ -600,12 +591,8 @@ main > #about_section > section:first-child > h1::after {
 }
 
 main > #about_section > section:nth-child(2) section > h2 {
-    /* 2022-09-11 Commented */
-    /*font-size: 30px;
-    margin: 0;*/
     font-weight: 600;
 
-    /* 2022-09-11 Added */
     font-size: 32px;
     /* line-height: 52px; */
     margin-top: 0;
@@ -657,10 +644,6 @@ main > #about_section > section:nth-child(2) section {
     display: flex;
     flex-direction: column;
 }
-
-/*main > #about_section > section:nth-child(2) section > div > p:nth-child(4) {*/
-/*    !*margin-top: 34px;*!*/
-/*}*/
 
 main > #about_section > section:nth-child(2) section > div p {
     margin-bottom: 20px;
@@ -727,19 +710,6 @@ main > #about_section > section:nth-child(2) section > button > a > div {
 main > #about_section > section:nth-child(2) section > div p > i {
     color: #7461E2;
 }
-
-main > #about_section > section:nth-child(2) > article > section:nth-child(2) > div > p:nth-child(9) {
-    /*position: absolute;
-    right: 165px;
-    top: 161px;*/
-}
-
-main > #about_section > section:nth-child(2) > article > section:nth-child(2) > div > p:nth-child(10) {
-    /*position: absolute;
-    right: 61px;
-    top: 204px;*/
-}
-
 
 /* --------------------------------------------------------------------------- */
 
@@ -824,7 +794,7 @@ main > section#education_section > section:first-child > h1::after {
     margin-left: -1px;
     width: 2px;
     height: 100%;
-    background: #9c7c38;
+    background: #7461E2;
     z-index: 5;
 }
 
@@ -857,7 +827,7 @@ main > section#education_section > section:first-child > h1::after {
     height: 17px;
     border-radius: 50%;
     /*border: 2px solid #f5f7fa;*/
-    background: #9c7c38;
+    background: #7461E2;
     margin-top: 10px;
     z-index: 9999;
 }
@@ -970,7 +940,7 @@ main > section#experience_section > section:first-child > h1::after {
 }
 
 #btnWork {
-    color: #7461E2 !important;
+    color:#9c7c38 !important;
 }
 
 .experience_container {
@@ -991,6 +961,17 @@ main > section#experience_section > section:first-child > h1::after {
     height: 100%;
     background: #9c7c38;
     z-index: 5;
+}
+
+
+.marker-experience {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    /*border: 2px solid #f5f7fa;*/
+    background: #9c7c38;
+    margin-top: 10px;
+    z-index: 9999;
 }
 
 @media screen and (max-width: 768px) {
@@ -2521,19 +2502,6 @@ main > section#activities_section > section:first-child > h5 {
 }
 
 main > section#activities_section > section:last-child {
-    /* 2022-09-11 Commented */
-    /*position: absolute;
-    width: 1380px;
-    !*height: 233px;*!
-    top: 126px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;*/
-
-    /* 2022-09-11 Added */
-    /*width: 1380px;*/
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -3147,34 +3115,6 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     transition: all 0.8s ease;
 }
 
-/*#projects-container > div > div {
-    position: absolute;
-    top: 72px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 233px;
-    height: 250px;
-    transition: all 2s;
-}*/
-
-/*#projects-container > div > div:hover {
-    !*transition: all 2s;*!
-}
-
-#projects-container > div > div::before {
-    content: '';
-    border: 10px solid black;
-    background-color: green;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: auto;
-}*/
-
 #projects-container > div > h2 {
     margin-top: 43px;
     font-size: 21px;
@@ -3756,29 +3696,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     body > header > nav {
         display: none;
         transition: all .5s;
-
-        /*position: fixed;*/
-        /*top:0;*/
-        /*right: -40vw;*/
-        /*width: 40vw;*/
-        /*height: 100%;*/
-        /*background-color: black;*/
-        /*padding-top: 15vw;*/
-        /*padding-left: 5vw;*/
-        /*transition: 0.3s ease;*/
-        /*z-index: 100;*/
-        /*display: flex;*/
-        /*flex-direction: column;*/
     }
-
-    /*body > header > nav > menu > li a{*/
-    /*    color: black;*/
-    /*    font-weight: bolder;*/
-    /*    font-size: 3vw;*/
-    /*    margin: 0.5vw 0;*/
-    /*    justify-content: space-around;*/
-    /*}*/
-
 
 }
 
@@ -3822,7 +3740,6 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
         width: 672px;
     }
 
-    /* -------------- 2022-09-13 Added */
     body > main > section#home_section > section:first-child > section#home_description {
         /*transform: translateX(50px);*/
         transform: translateX(25px);
