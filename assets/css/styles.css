@@ -1290,6 +1290,103 @@ main > section#skills_section > section:nth-child(3) div:last-of-type:hover i {
     color: #7461E2;
 }
 
+/*====================== Skills Section - Certificates ======================*/
+
+main > section#skills_section > section:nth-child(4) {
+    /*background: yellow;*/
+    position: relative;
+    height: 412px;
+}
+
+main > section#skills_section > section:last-child > h2 {
+    font-weight: 500;
+    font-size: 25px;
+    color: hsl(250, 8%, 45%);
+    position: absolute;
+    left: 10px;
+    right: 0;
+    width: max-content;
+    margin: auto;
+    top: 1px;
+}
+
+.o-main-section {
+    margin: 0 auto;
+    max-width: 37.5rem;
+    position: relative;
+    height: 412px;
+    top:80px;
+
+}
+
+.c-article__link {
+    align-items: center;
+    color: var(--bs-black-rgb);
+    display: flex;
+    justify-content: space-between;
+    margin: 1.875rem 0;
+    padding: 1.25rem;
+    text-decoration: none;
+}
+
+.c-article__link * {
+    pointer-events: none;
+}
+
+.c-article__heading {
+    font-size: 1.25rem;
+    margin: 0.625rem 0;
+}
+
+.c-article__content {
+    line-height: 1.5;
+    margin: 0.625rem 0;
+}
+
+.c-article__img-wrapper {
+    height: 6.25rem;
+    margin-left: 1.25rem;
+    min-width: 10rem;
+    width: 10rem;
+}
+
+.c-article__img {
+    border-radius: 0.125rem;
+    display: block;
+    height: 100%;
+    filter: grayscale(1);
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: filter 0.3s ease-in;
+    width: 100%;
+}
+
+.c-article__link:hover .c-article__img {
+    filter: grayscale(0);
+}
+
+@-webkit-keyframes fe30-anime {
+    0% {
+        opacity: 0;
+        transform: translate(0, 100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes fe30-anime {
+    0% {
+        opacity: 0;
+        transform: translate(0, 100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
 /* --------------------------------------------------------------------------- */
 
 /*====================== Projects Section ======================*/
@@ -1304,7 +1401,7 @@ main > section#projects_section > section:first-child {
      height: 102px;*/
 
     position: relative;
-    height: 155px;
+    height: 640px;
 }
 
 main > section#projects_section > section:first-child > h1 {
@@ -1319,7 +1416,7 @@ main > section#projects_section > section:first-child > h1 {
     font-size: 36px;
     font-weight: 600;
     margin-bottom: 8px;
-    margin-top: 17px;
+    margin-top: 480px;
     padding-bottom: 17px;
     text-transform: uppercase;
 }
@@ -1333,7 +1430,7 @@ main > section#projects_section > section:first-child > h2 {
     text-align: center;
     width: max-content;
     margin-bottom: 8px;
-    margin-top: 110px;
+    margin-top: 580px;
     font-weight: 500;
     font-size: 22px;
     color: hsl(250, 8%, 45%);
@@ -3410,6 +3507,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
 
 /* For assignments and projects Sections */
 @media all and (max-width: 546px) {
+
     #projects-container > div {
         width: 86%;
     }
@@ -3435,6 +3533,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
 @media all and (max-width: 485px) {
     #projects_section > section:nth-child(2) {
         margin: 33px 43px 0 43px;
+
     }
 
     #assignments_section > section:nth-child(2) {
@@ -3449,6 +3548,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     main > section#projects_section > section:first-child > h2 {
         text-align: center;
         width: 390px;
+
     }
 }
 
