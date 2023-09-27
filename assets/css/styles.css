@@ -213,6 +213,10 @@ body{
     cursor: none;
 }
 
+footer{
+    cursor: default;
+}
+
 #mainCircle{
     display: inline-block;
     position: absolute;
