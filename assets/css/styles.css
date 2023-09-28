@@ -217,6 +217,16 @@ footer{
     cursor: default;
 }
 
+/*hero photo cursor*/
+main > #home_section > section:last-child > div{
+    cursor: default;
+}
+
+/*about photo cursor*/
+main > section:nth-child(2)#about_section > section:nth-child(2) > article > div{
+    cursor: default;
+}
+
 #mainCircle{
     display: inline-block;
     position: absolute;
@@ -1363,6 +1373,10 @@ main > section#skills_section > section:last-child > h2 {
 
 .c-article__link:hover .c-article__img {
     filter: grayscale(0);
+}
+
+.c-article__link{
+    target: "_blank";
 }
 
 @-webkit-keyframes fe30-anime {
@@ -3357,7 +3371,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     }
 }
 
-#btnPOSProject > a, #btnHostelProject > a, #btnHotelReservationProject > a {
+#btnPalmOilProject > a, #btnHostelProject > a, #btnChatAppProject > a {
     position: absolute;
     top: 0;
     right: 0;

@@ -33,19 +33,19 @@ $("#btnProjectsViewMore").on("click", function () {
     $("#btnProjectsViewMore>a").attr("href", "pages/projects.html");
 });
 
-$('#btnPOSProject').on('click', function () {
-    $("#btnPOSProject>a").attr("target", "_blank");
-    $("#btnPOSProject>a").attr("href", "https://github.com/AshanSandeep06/Restaurant_Management-POS_System");
+$('#btnPalmOilProject').on('click', function () {
+    $("#btnPalmOilProject>a").attr("target", "_blank");
+    $("#btnPalmOilProject>a").attr("href", "https://github.com/Dilshan-Dekumpitiya/Production-and-By-Product-Fuel-Management-System-Using-Layerd-Architecture");
 });
 
 $('#btnHostelProject').on('click', function () {
     $("#btnHostelProject>a").attr("target", "_blank");
-    $("#btnHostelProject>a").attr("href", "https://github.com/AshanSandeep06/Hostel_Management_System-Hibernate-CourseWork");
+    $("#btnHostelProject>a").attr("href", "https://github.com/Dilshan-Dekumpitiya/Hostel-Management-System-Using-Hibernate");
 });
 
-$('#btnHotelReservationProject').on('click', function () {
-    $("#btnHotelReservationProject>a").attr("target", "_blank");
-    $("#btnHotelReservationProject>a").attr("href", "https://github.com/AshanSandeep06/Hotel_Reservation-System");
+$('#btnChatAppProject').on('click', function () {
+    $("#btnChatAppProject>a").attr("target", "_blank");
+    $("#btnChatAppProject>a").attr("href", "https://github.com/Dilshan-Dekumpitiya/Group-Chat-App-Using-Java-Socket-Programming");
 });
 
 /* ------------------------ Assignments Section -------------------- */
