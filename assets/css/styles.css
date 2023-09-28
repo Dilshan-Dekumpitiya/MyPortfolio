@@ -505,7 +505,7 @@ main > section:first-child > section:first-child > #home_description > button > 
 }
 
 main > #home_section > section:last-child > div {
-    background: url(../images/My-Hero-Photo-.png);
+    background: url(../img/My-Hero-Photo-.png);
     background-size: cover;
     background-position: center;
     width: 494px;
@@ -559,7 +559,7 @@ main > section:nth-child(2)#about_section > section:nth-child(2) {
 }
 
 main > section:nth-child(2)#about_section > section:nth-child(2) > article > div {
-    background: url(../images/My-About-Photo.jpg);
+    background: url(../img/My-About-Photo.jpg);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -1576,7 +1576,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:first-child > nav {
-    background: url(../images/Hotel_Reservation_Project_SS.jpeg);
+    background: url(../img/Hotel_Reservation_Project_SS.jpeg);
     background-size: cover;
     background-position: center;
     width: 271px;
@@ -1591,7 +1591,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:nth-child(2) > nav {
-    background: url(../images/Pos_System_Project_SS.jpeg);
+    background: url(../img/Pos_System_Project_SS.jpeg);
     background-size: cover;
     background-position: center;
     width: 273px;
@@ -1605,7 +1605,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:nth-child(3) > nav {
-    background: url(../images/Layerd_Project_Photo.jpeg);
+    background: url(../img/Layerd_Project_Photo.jpeg);
     background-size: cover;
     background-position: center;
     width: 234px;
@@ -1749,7 +1749,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(2) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(2) > section:nth-child(1) > div:first-child > nav {
-    background: url(../images/CSS_Assignment-02.jpg);
+    background: url(../img/CSS_Assignment-02.jpg);
     background-size: cover;
     background-position: center;
     width: 307px;
@@ -1769,7 +1769,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(2) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(2) > section:nth-child(1) > div:nth-child(2) > nav {
-    background: url(../images/CSS_Assignment-01.jpg);
+    background: url(../img/CSS_Assignment-01.jpg);
     background-size: cover;
     background-position: center;
     width: 273px;
@@ -1796,7 +1796,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(2) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) > nav {
-    background: url(../images/CSS_GridLayout_Assignment.jpg);
+    background: url(../img/CSS_GridLayout_Assignment.jpg);
     background-size: cover;
     background-position: center;
     width: 234px;
@@ -2665,31 +2665,31 @@ main > section#activities_section > section:last-child div.DivImages {
 }
 
 main > section#activities_section > section:last-child > div:first-child > div {
-    background: url(../images/Movies.png);
+    background: url(../img/Movies.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(2) > div {
-    background: url(../images/Watching.png);
+    background: url(../img/Watching.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(3) > div {
-    background: url(../images/Music.png);
+    background: url(../img/Music.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(4) > div {
-    background: url(../images/Gym.png);
+    background: url(../img/Gym.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(5) > div {
-    background: url(../images/Web_Surfing.png);
+    background: url(../img/Web_Surfing.png);
     background-size: cover;
     background-position: center;
 }
