@@ -510,7 +510,7 @@ main > section:first-child > section:first-child > #home_description > button > 
 }
 
 main > #home_section > section:last-child > div {
-    background: url(../img/My-Hero-Photo-.png);
+    background: url(../img/My-Hero-Photo.webp);
     background-size: cover;
     background-position: center;
     width: 494px;
@@ -564,7 +564,7 @@ main > section:nth-child(2)#about_section > section:nth-child(2) {
 }
 
 main > section:nth-child(2)#about_section > section:nth-child(2) > article > div {
-    background: url(../img/My-About-Photo.jpg);
+    background: url(../img/My-About-Photo.webp);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -1596,7 +1596,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:nth-child(2) > nav {
-    background: url(../img/Pos_System_Project_SS.jpeg);
+    background: url(../img/);
     background-size: cover;
     background-position: center;
     width: 273px;
@@ -1610,7 +1610,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:nth-child(3) > nav {
-    background: url(../img/Layerd_Project_Photo.jpeg);
+    background: url(../img/);
     background-size: cover;
     background-position: center;
     width: 234px;
