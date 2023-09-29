@@ -217,6 +217,21 @@ footer{
     cursor: default;
 }
 
+/*hero photo cursor*/
+main > #home_section > section:last-child > div{
+    cursor: default;
+}
+
+/*about photo cursor*/
+main > section:nth-child(2)#about_section > section:nth-child(2) > article > div{
+    cursor: default;
+}
+
+/*gallery section cursor*/
+.gallery-body{
+    cursor: pointer;
+}
+
 #mainCircle{
     display: inline-block;
     position: absolute;
@@ -495,7 +510,7 @@ main > section:first-child > section:first-child > #home_description > button > 
 }
 
 main > #home_section > section:last-child > div {
-    background: url(../images/My-Hero-Photo-.png);
+    background: url(../img/My-Hero-Photo-.png);
     background-size: cover;
     background-position: center;
     width: 494px;
@@ -549,7 +564,7 @@ main > section:nth-child(2)#about_section > section:nth-child(2) {
 }
 
 main > section:nth-child(2)#about_section > section:nth-child(2) > article > div {
-    background: url(../images/My-About-Photo.jpg);
+    background: url(../img/My-About-Photo.jpg);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -1365,6 +1380,10 @@ main > section#skills_section > section:last-child > h2 {
     filter: grayscale(0);
 }
 
+.c-article__link{
+    target: "_blank";
+}
+
 @-webkit-keyframes fe30-anime {
     0% {
         opacity: 0;
@@ -1562,7 +1581,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:first-child > nav {
-    background: url(../images/Hotel_Reservation_Project_SS.jpeg);
+    background: url(../img/Hotel_Reservation_Project_SS.jpeg);
     background-size: cover;
     background-position: center;
     width: 271px;
@@ -1577,7 +1596,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:nth-child(2) > nav {
-    background: url(../images/Pos_System_Project_SS.jpeg);
+    background: url(../img/Pos_System_Project_SS.jpeg);
     background-size: cover;
     background-position: center;
     width: 273px;
@@ -1591,7 +1610,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(1) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(1) > section:nth-child(1) > div:nth-child(3) > nav {
-    background: url(../images/Layerd_Project_Photo.jpeg);
+    background: url(../img/Layerd_Project_Photo.jpeg);
     background-size: cover;
     background-position: center;
     width: 234px;
@@ -1735,7 +1754,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(2) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(2) > section:nth-child(1) > div:first-child > nav {
-    background: url(../images/CSS_Assignment-02.jpg);
+    background: url(../img/CSS_Assignment-02.jpg);
     background-size: cover;
     background-position: center;
     width: 307px;
@@ -1755,7 +1774,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(2) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(2) > section:nth-child(1) > div:nth-child(2) > nav {
-    background: url(../images/CSS_Assignment-01.jpg);
+    background: url(../img/CSS_Assignment-01.jpg);
     background-size: cover;
     background-position: center;
     width: 273px;
@@ -1782,7 +1801,7 @@ main > section#projects_section > section:nth-child(3) > section:nth-child(2) > 
 }
 
 main > section#projects_section > section:nth-child(3) > section:nth-child(2) > section:nth-child(1) > div:nth-child(3) > nav {
-    background: url(../images/CSS_GridLayout_Assignment.jpg);
+    background: url(../img/CSS_GridLayout_Assignment.jpg);
     background-size: cover;
     background-position: center;
     width: 234px;
@@ -2545,6 +2564,159 @@ main > section#services_section > section:nth-child(2) > section > div:nth-child
 
 /* --------------------------------------------------------------------------- */
 
+/*====================== Gallery Section ======================*/
+main > section#gallery_section {
+    width: 80%;
+    position: relative;
+    margin-left: 10%;
+    /*margin-right: 20%;*/
+    /*height: 380px;*/
+    /*background-color: #fafaff;*/
+}
+
+main > section#gallery_section > section:first-child {
+    position: relative;
+    height: 102px;
+}
+
+main > section#gallery_section > section:first-child > h1 {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    width: max-content;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 17px;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+}
+
+main > section#gallery_section > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 184px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(33% - 60px);
+}
+
+main > section#gallery_section > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 65px;
+    height: 3px;
+    background: #7461E2;
+    bottom: 0;
+    left: calc(44% - 20px);
+}
+
+.gallery-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*height: 100vh;*/
+    background-size: cover;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*margin: 0px 20px 0 20px;*/
+    margin-top: 20px;
+}
+
+.container .headinggg {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.container .headinggg h3 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container .headinggg h3 span {
+    color: burlywood;
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    transition: all 1.1s;
+}
+
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    /*padding-top: 15px;*/
+    border-radius: 5px 5px 5px 5px;
+    transition: all 1.1s;
+}
+
+.container .box .dream img:hover {
+    transform: scale(1.2);
+}
+
+@media (min-width: 725px){
+    .projects .all-projectsss {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 50px;
+    }
+
+    .projects .project-item {
+        flex-direction: row;
+    }
+
+    .projects .project-item {
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .projects .project-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .projects .all-projectsss .project-info {
+        height: 100%;
+    }
+
+    .projects .all-projectsss .project-img {
+        height: 100%;
+    }
+}
+
+
+/* --------------------------------------------------------------------------- */
+
 /*====================== Activities Section ======================*/
 main > section#activities_section {
     width: 100%;
@@ -2651,31 +2823,31 @@ main > section#activities_section > section:last-child div.DivImages {
 }
 
 main > section#activities_section > section:last-child > div:first-child > div {
-    background: url(../images/Movies.png);
+    background: url(../img/Movies.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(2) > div {
-    background: url(../images/Watching.png);
+    background: url(../img/travel.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(3) > div {
-    background: url(../images/Music.png);
+    background: url(../img/content-create.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(4) > div {
-    background: url(../images/Gym.png);
+    background: url(../img/video-edit.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(5) > div {
-    background: url(../images/Web_Surfing.png);
+    background: url(../img/Music.png);
     background-size: cover;
     background-position: center;
 }
@@ -3357,7 +3529,7 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
     }
 }
 
-#btnPOSProject > a, #btnHostelProject > a, #btnHotelReservationProject > a {
+#btnPalmOilProject > a, #btnHostelProject > a, #btnChatAppProject > a {
     position: absolute;
     top: 0;
     right: 0;
