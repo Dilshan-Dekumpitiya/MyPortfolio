@@ -27,6 +27,8 @@ $(document).mousemove(function(event) {
 
 });
 
+
+
 /* ------------------------ Projects Section -------------------- */
 $("#btnProjectsViewMore").on("click", function () {
     $("#btnProjectsViewMore>a").attr("target", "_blank");
