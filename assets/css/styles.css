@@ -2829,25 +2829,25 @@ main > section#activities_section > section:last-child > div:first-child > div {
 }
 
 main > section#activities_section > section:last-child > div:nth-child(2) > div {
-    background: url(../img/Watching.png);
+    background: url(../img/travel.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(3) > div {
-    background: url(../img/Music.png);
+    background: url(../img/content-create.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(4) > div {
-    background: url(../img/Gym.png);
+    background: url(../img/video-edit.png);
     background-size: cover;
     background-position: center;
 }
 
 main > section#activities_section > section:last-child > div:nth-child(5) > div {
-    background: url(../img/Web_Surfing.png);
+    background: url(../img/Music.png);
     background-size: cover;
     background-position: center;
 }
