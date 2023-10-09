@@ -3797,6 +3797,22 @@ main > section#services_section > section:nth-child(2) > section > div:hover {
         height: 112px;
         top: 28px;
     }
+
+}
+
+@media all and (max-width: 375px) {
+    #projects_section{
+        margin-top: 920px;
+        top: 170px;
+    }
+
+}
+
+@media all and (max-width: 415px) {
+    #projects_section{
+        margin-top: 300px;
+    }
+
 }
 
 /* For assignments and projects Sections */
