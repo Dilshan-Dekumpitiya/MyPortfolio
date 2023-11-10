@@ -27,8 +27,6 @@ $(document).mousemove(function(event) {
 
 });
 
-
-
 /* ------------------------ Projects Section -------------------- */
 $("#btnProjectsViewMore").on("click", function () {
     $("#btnProjectsViewMore>a").attr("target", "_blank");
@@ -58,15 +56,15 @@ $("#btnAssignmentsViewMore").on("click", function () {
 
 $('#btnAssignment-01').on('click', function () {
     $("#btnAssignment-01>a").attr("target", "_blank");
-    $("#btnAssignment-01>a").attr("href", "assignments/css/Basics/case_01/index.html");
+    $("#btnAssignment-01>a").attr("href", "assignments/CSS/Basics/case_01/index.html");
 });
 
 $('#btnAssignment-02').on('click', function () {
     $("#btnAssignment-02>a").attr("target", "_blank");
-    $("#btnAssignment-02>a").attr("href", "assignments/css/Basics/case_02/index.html");
+    $("#btnAssignment-02>a").attr("href", "assignments/CSS/Basics/case_02/index.html");
 });
 
 $('#btnAssignment-03').on('click', function () {
     $("#btnAssignment-03>a").attr("target", "_blank");
-    $("#btnAssignment-03>a").attr("href", "assignments/css/Basics/case_03/index.html");
+    $("#btnAssignment-03>a").attr("href", "assignments/CSS/Basics/case_03/index.html");
 });
