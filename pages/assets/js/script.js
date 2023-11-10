@@ -123,91 +123,91 @@ for (let i = 1; i < 19; i++) {
             case "btnAssignment-1":
                 $("#btnAssignment-1>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Basics/case_01/index.html"
+                    "href": "../assignments/CSS/Basics/case_01/index.html"
                 });
                 break;
 
             case "btnAssignment-2":
                 $("#btnAssignment-2>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Basics/case_02/index.html"
+                    "href": "../assignments/CSS/Basics/case_02/index.html"
                 });
                 break;
 
             case "btnAssignment-3":
                 $("#btnAssignment-3>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Basics/case_03/index.html"
+                    "href": "../assignments/CSS/Basics/case_03/index.html"
                 });
                 break;
 
             case "btnAssignment-4":
                 $("#btnAssignment-4>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Basics/case_04/index.html"
+                    "href": "../assignments/CSS/Basics/case_04/index.html"
                 });
                 break;
 
             case "btnAssignment-5":
                 $("#btnAssignment-5>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Basics/case_05/index.html"
+                    "href": "../assignments/CSS/Basics/case_05/index.html"
                 });
                 break;
 
             case "btnAssignment-6":
                 $("#btnAssignment-6>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Basics/case_06/index.html"
+                    "href": "../assignments/CSS/Basics/case_06/index.html"
                 });
                 break;
 
             case "btnAssignment-7":
                 $("#btnAssignment-7>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Transitions/case_01/index.html"
+                    "href": "../assignments/CSS/Transitions/case_01/index.html"
                 });
                 break;
 
             case "btnAssignment-8":
                 $("#btnAssignment-8>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Transitions/case_02/index.html"
+                    "href": "../assignments/CSS/Transitions/case_02/index.html"
                 });
                 break;
 
             case "btnAssignment-9":
                 $("#btnAssignment-9>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Animations/case_01/index.html"
+                    "href": "../assignments/CSS/Animations/case_01/index.html"
                 });
                 break;
 
             case "btnAssignment-10":
                 $("#btnAssignment-10>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Animations/case_02/index.html"
+                    "href": "../assignments/CSS/Animations/case_02/index.html"
                 });
                 break;
 
             case "btnAssignment-11":
                 $("#btnAssignment-11>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Animations/case_03/index.html"
+                    "href": "../assignments/CSS/Animations/case_03/index.html"
                 });
                 break;
 
             case "btnAssignment-12":
                 $("#btnAssignment-12>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Animations/case_04/index.html"
+                    "href": "../assignments/CSS/Animations/case_04/index.html"
                 });
                 break;
 
             case "btnAssignment-13":
                 $("#btnAssignment-13>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/css/Frameworks/POS/index.html"
+                    "href": "../assignments/CSS/Frameworks/POS/index.html"
                 });
                 break;
 
