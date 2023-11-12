@@ -221,7 +221,7 @@ for (let i = 1; i < 19; i++) {
             case "btnAssignment-15":
                 $("#btnAssignment-15>a").attr({
                     "target": "_blank",
-                    "href": "../assignments/JS/SPA/index.html"
+                    "href": "../assignments/JS/POS/index.html"
                 });
                 break;
 
